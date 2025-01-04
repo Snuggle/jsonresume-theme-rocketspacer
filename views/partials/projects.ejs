@@ -1,0 +1,44 @@
+<%
+/**
+ * @typedef {object} Project
+ * @property {string} name Project name
+ * @property {string} releaseDate Project release date
+ * @property {string} publisher Project publisher
+ * @property {string} summary Project summary
+ *
+ * [Section] projects
+ * @param {array.<Projects>} projects
+ */
+%>
+
+<% if (projects && Array.isArray(projects) && projects.length > 0) { %>
+  <section id="projects" class="row">
+    <aside class="col-sm-3">
+      <h3>Projects</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        <% projects.forEach((project) => { %>
+          <div class="col-sm-1" style="padding-right: 0;">
+            <img style="width:100%; border-radius:5px;" src="<%= project.image %>"/>
+          </div>
+          <div class="col-sm-11">
+            <h4 class="strike-through">
+              <span><%= project.name %></span>
+              <span class="date"><%= this.prettyDate(project.releaseDate) %></span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="<%= project.url %>"><%= project.url %></a>
+            </div>
+            <div class="position">
+              <%= project.keywords %>
+            </div>
+            <div class="summary">
+              <p><%= project.description %></p>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+  </section>
+<% } %>

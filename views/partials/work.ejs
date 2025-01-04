@@ -16,13 +16,16 @@
 
 <% if (work && Array.isArray(work) && work.length > 0) { %>
   <section id="work" class="row">
-    <aside class="col-sm-3">
+    <aside class="col-sm-3" style="margin-top: 30px;">
       <h3>Work</h3>
     </aside>
     <div class="col-sm-9">
       <div class="row">
         <% work.forEach((w) => { %>
-          <div class="col-sm-12">
+          <div class="col-sm-1" style="padding-right: 0;">
+            <img style="width:100%; border-radius:5px;" src="<%= w.image %>"/>
+          </div>
+          <div class="col-sm-11">
             <h4 class="strike-through">
               <span><%= w.company %></span>
               <span class="date">

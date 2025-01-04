@@ -1,201 +1,198 @@
 {
-  "basics": {
-    "name": "John Doe",
-    "label": "Software Engineer, Backend Development",
-    "picture": "dummy-profile.png",
-    "email": "john.doe@gmail.com",
-    "phone": "(+1) 234-567-8910",
-    "website": "https://john.doe",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
-      },
-      {
-        "network": "StackOverflow",
-        "username": "johndoe",
-        "url": "https://stackoverflow.com/users/johndoe"
-      },
-      {
-        "network": "Facebook",
-        "username": "John Doe",
-        "url": "https://www.facebook.com/johndoe"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Google",
-      "position": "Software Engineer 1",
-      "website": "https://google.com",
-      "startDate": "2017-09-01",
-      "summary": "Help building components of the Foo system",
-      "highlights": [
-        "Awarded 'Employee of the Month'",
-        "Optimize computational cost by 10%"
-      ]
-    },
-    {
-      "company": "Microsoft",
-      "position": "Intern",
-      "website": "https://microsoft.com",
-      "startDate": "2015-05-01",
-      "endDate": "2015-08-01",
-      "summary": "Work here as an intern for the ABC project during summer"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Nerds movement",
-      "position": "Founder",
-      "website": "https://nerdsmovement.com",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Helping nerds around the world realize their true nature"
-    },
-    {
-      "organization": "Charity Funds",
-      "position": "Volunteer",
-      "website": "https://charityfunds.com",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Delivering help to people who needs it",
-      "highlights": [
-        "Bring food to 350 sick people in need of help"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "MIT",
-      "area": "Artificial Intelligence",
-      "studyType": "Master",
-      "startDate": "2015-09-01",
-      "endDate": "2017-07-01"
-    },
-    {
-      "institution": "UC Berkeley",
-      "area": "Software Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-01",
-      "endDate": "2015-07-01",
-      "gpa": "3.2 / 4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "BE8080 - Distributed Systems"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Employee of the month",
-      "date": "2018-01-15",
-      "awarder": "Google",
-      "summary": "Awarded for outstanding working performance"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Optimizing artificial neural network",
-      "publisher": "Nature and Science journal",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
-      "summary": "My publication on a new algorithm that speed up recognition in artificial neural network"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "Solution Architect - Associate",
-      "issuingOrganization": "Amazon Web Services (AWS)",
-      "issueDate": "2014-10-01",
-      "expirationDate": "2016-10-01",
-      "credentialID": "627A796D5FE94E64B8845C4C2C0C4020",
-      "credentialURL": "http://credential.dot.com/627A796D5FE94E64B8845C4C2C0C4020"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Frontend Development",
-      "level": "Master",
-      "keywords": [
-        "HTML/CSS/Javascript",
-        "Boostrap",
-        "Babel",
-        "React/Redux",
-        "Webpack"
-      ]
-    },
-    {
-      "name": "Backend Development",
-      "level": "Master",
-      "keywords": [
-        "NodeJS",
-        "Golang",
-        "MongoDB",
-        "Postgres",
-        "Redis"
-      ]
-    },
-    {
-      "name": "System Administration",
-      "level": "Master",
-      "keywords": [
-        "AWS",
-        "Linux",
-        "NGINX",
-        "CloudFlare",
-        "Shell",
-        "Docker"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "name": "English",
-      "level": "Native speaker"
-    },
-    {
-      "name": "French",
-      "level": "Proficient"
-    },
-    {
-      "name": "Japanese",
-      "level": "Beginner"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Anime",
-      "keywords": [
-        "Re:Zero",
-        "Steins Gate"
-      ]
-    },
-    {
-      "name": "Movies",
-      "keywords": [
-        "Star Wars",
-        "Lord of the Rings"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe <jane.doe@gmail.com>",
-      "reference": "Passionate and hard working man"
-    },
-    {
-      "name": "Don Joe",
-      "reference": "The best employee we could ever have"
-    }
-  ]
+	"meta": {
+		"theme": "rocketspacer"
+	},
+	"basics": {
+		"name": "Evie Snuggle",
+		"label": "👩🏽‍💻 · Site Reliability Engineer (SRE)",
+		"summary": "I love experimenting with and testing out new technologies, it's thrilling to see new ideas shape the world in a completely new ways. For personal projects: I've created a cloud-storage server with AWS S3-style Object Storage, hosted a Steam games library over iSCSI using ZFS w/deduplication over a small peer-to-peer Thunderbolt 3 network and live and breathe tech every day as part of my hobbies.",
+		"website": "https://snugg.ie",
+		"picture": "https://github.com/Snuggle.png",
+		"email": "jobs@snugg.ie",
+		"location": {
+			"city": "Birmingham",
+			"countryCode": "UK"
+		},
+		"profiles": [{
+				"url": "https://github.com/Snuggle",
+				"username": "Snuggle",
+				"network": "GitHub"
+			},
+			{
+				"url": "https://gitlab.com/Snuggle",
+				"username": "Snuggle",
+				"network": "GitLab"
+			},
+			{
+				"url": "https://linkedin.com/in/Snuggle",
+				"username": "Snuggle",
+				"network": "LinkedIn"
+			}
+		]
+	},
+	"volunteer": [{
+		"organization": "Official Linux Discord Server",
+		"position": "Moderator for the Official Linux Discord Community [>13,271 users]",
+		"startDate": "2018-10-01"
+	}],
+	"education": [{
+		"startDate": "2018-09-17",
+		"endDate": "2022-06-23",
+		"area": "Computer Science",
+		"studyType": "Bachelor's degree with Honours",
+		"institution": "Birmingham City University",
+		"gpa": "First-class"
+	}],
+	"references": [],
+	"certificates": [{
+		"name": "Splunk Enterprise Certified Admin",
+		"id": "ac85943e-0255-4e3f-a10f-b7a14e3fff07",
+		"date": "2024-09-01",
+		"expirationDate": "2027-09-01",
+		"issuer": "Splunk",
+		"url": "https://www.credly.com/badges/0ed4e53f-4816-456b-97fb-f2617f76378f"
+	},
+	{
+		"name": "AWS Certified Solutions Architect – Associate",
+		"date": "2024-08-23",
+		"id": "65809ac9-01dd-43bc-8af6-9fb3b9f497a0",
+		"expirationDate": "2027-08-23",
+		"issuer": "Amazon Web Services",
+		"url": "https://www.credly.com/badges/65809ac9-01dd-43bc-8af6-9fb3b9f497a0"
+	},
+	{
+		"name": "AZ‑900 Azure Fundamentals",
+		"date": "2022-06-01",
+		"id": "05fdab07-4c8b-4106-b280-80ed96658fe7",
+		"issuer": "Microsoft",
+		"url": "https://www.credly.com/badges/05fdab07-4c8b-4106-b280-80ed96658fe7"
+	}],
+	"skills": [
+		{
+			"keywords": [
+				"CloudFormation", "Terraform", "Ansible", "Chef", "Puppet"
+			],
+			"level": "Senior",
+			"name": "Infrastructure as Code"
+		},
+		{
+			"keywords": [
+				"CI/CD Pipelines", "Configuration Management", "GitHub Runners/Actions", "Jenkins", "GitLab", "Travis"
+			],
+			"level": "Senior",
+			"name": "Automation"
+		},
+		{
+			"keywords": [
+				"Python", "C#", "Java", "Rust", "Ruby", "Go", "Bash", "HTML/CSS", "and more"
+			],
+			"level": "Senior",
+			"name": "Programming"
+		},
+		{
+			"keywords": [
+				"Docker", "Kubernetes", "Full‑stack web servers", "Systemd‑services", "Containerization", "Years of Experience Using Linux"
+			],
+			"level": "Senior",
+			"name": "Linux"
+		}
+	],
+	"awards": [],
+	"projects": [
+		{
+			"name": "snugg.ie",
+			"image": "https://snugg.ie/uploads/2025/sprinkles.png",
+			"description": "Built blog...",
+			"keywords": [
+				"IndieWeb Hugo Static-Generated Blog"
+			],
+			"startDate": "2021-06-01",
+			"url": "https://snugg.ie/posts/hug-server",
+			"entity": "Entity",
+			"type": "application"
+		},
+		{
+			"name": "Homesweet",
+			"image": "https://snugg.ie/uploads/2025/2ec580e578.png",
+			"description": "Built a home-made wooden rack-mount cabinet with servers that runs Red Hat Enterprise Linux (RHEL) and a wide range of different Docker containers, as well as a ZFS RAID file-system for hosting a service called Nextcloud, a home personal cloud storage server, similar to Google Drive, but personal and with vastly more storage. This process has been well-documented with two technical blog-posts on my personal website.",
+			"keywords": [
+				"Server Rack and Cloud for the Home"
+			],
+			"startDate": "2021-06-01",
+			"url": "https://snugg.ie/posts/hug-server",
+			"entity": "Entity",
+			"type": "application"
+		},
+		{
+			"name": "Starship & Spacefish",
+			"image": "https://snugg.ie/uploads/2025/starship.png",
+			"description": "Helped design, discuss, contributed code, review code and maintain two large GitHub projects [3.6k stars and 546 stars respectively], which taught me a massive bunch about open-source, working with an entirely remote team, PR code review and automated testing.",
+			"keywords": [
+				"Project Maintainer for Open-Source Rust-based Shell Prompt"
+			],
+			"startDate": "2018-06-01",
+			"url": "https://starship.rs"
+		},
+		{
+			"name": "flossy.me",
+			"image": "https://snugg.ie/uploads/2025/flossy.png",
+			"description": "An instant messaging web-application written from scratch using a 'LEMP' full-web-stack, using Linux, Nginx, MySQL and Python (Django) as well as bootstrap HTML/CSS for the front-end. This was made within 14 consecutive hours, recorded and time-lapsed as a personal challenge.",
+			"keywords": [ "Open-Source Instant Messaging Web-Application using Python's Django"
+			],
+			"startDate": "2018-05-01",
+			"url": "https://github.com/Snuggle/flossy"
+		}
+	],
+	"work": [{
+			"summary": "Currently fixing the internet, more coming soon...",
+			"image": "https://snugg.ie/uploads/2025/cisco.svg",
+			"website": "https://cisco.com",
+			"company": "Cisco",
+			"location": "Remote",
+			"position": "Site Reliability Engineer",
+			"startDate": "2024-06-10",
+			"highlights": []
+			},{
+			"summary": "Environment: AWS CloudFormation, EC2, S3, RDS, VPC, ECS (Docker), EKS (Kubernetes), ELB, Auto Scaling, Unix / Linux, RHEL6 / AL2",
+			"image": "https://snugg.ie/uploads/2025/aws.svg",
+			"website": "https://amazon.com/aws",
+			"company": "Amazon Web Services / AWS",
+			"location": "Remote",
+			"position": "Systems Engineer",
+			"startDate": "2022-09-01",
+			"endDate": "2024-03-10",
+			"highlights": ["Using CloudFormation to manage global DNS infrastructure as part of the Route 53 team.",
+			"Automated deployment of Java software packages to Linux fleets using Kubernetes and DevOps CI/CD pipelines",
+			"Took ownership of the region build development process for a new data‑centre region.",
+			"Winner of internal Hackathon with Beacon, a project which automates POSIX permission groups to improve developer experience."]
+		},
+		{
+			"summary": "Taught 1st and 2nd year students and aid their learning by providing implementations of code, demonstrating them, answering student's questions, teach programming concepts by-example and running through them piece-by-piece in sessions throughout seminars.",
+			"image": "https://snugg.ie/uploads/2025/bcu.svg",
+			"website": "https://bcu.ac.uk",
+			"company": "Birmingham City University",
+			"location": "Birmingham",
+			"position": "Visiting Lecturer",
+			"startDate": "2019-10-01",
+			"endDate": "2022-06-23",
+			"highlights": []
+		},
+		{
+			"website": "https://pinewood.co.uk",
+			"image": "https://snugg.ie/uploads/2025/pinewood.svg",
+			"company": "Pinewood Technologies",
+			"location": "Birmingham Business Park, Birmingham",
+			"position": "Undergraduate Software Engineer",
+			"startDate": "2020-08-03",
+			"endDate": "2021-08-03",
+			"summary": "Environment: Azure DevOps CI/CD Pipelines, JavaScript C#, .NET Core, Razor, Rozlyn, Git",
+			"highlights": [
+				"Part of the Platform team writing developer tooling & custom Razor-based .NET & JavaScript web frameworks.",
+				"Created developer scripts to reduce developer's project building time by 30 minutes.",
+				"Writing automated code analysis tools with Rozlyn and C#.",
+				"Helped form coding standards to reduce common code review comments by 84%.",
+				"Lead the switch in my team from Microsoft TFS to Git by writing new documentation and giving tutorials."
+			]
+		}
+	]
 }
