@@ -4,8 +4,8 @@
 	},
 	"basics": {
 		"name": "Evie Snuggle",
-		"label": "👩🏽‍💻 · Site Reliability Engineer (SRE)",
-		"summary": "I love experimenting with and testing out new technologies, it's thrilling to see new ideas shape the world in a completely new ways. For personal projects: I've created a cloud-storage server with AWS S3-style Object Storage, hosted a Steam games library over iSCSI using ZFS w/deduplication over a small peer-to-peer Thunderbolt 3 network and live and breathe tech every day as part of my hobbies.",
+		"label": "Site Reliability Engineer",
+		"summary": "I run a personal blog where I share all of the various projects I'm currently working on. I love experimenting with and testing out new technologies, it's thrilling to see new ideas shape the world in a completely new ways.",
 		"website": "https://snugg.ie",
 		"picture": "https://github.com/Snuggle.png",
 		"email": "jobs@snugg.ie",
@@ -84,7 +84,7 @@
 		},
 		{
 			"keywords": [
-				"Python", "C#", "Java", "Rust", "Ruby", "Go", "Bash", "HTML/CSS", "and more"
+				"Python", "C#", "Java", "Rust", "Ruby", "Go", "Bash", "HTML/CSS"
 			],
 			"level": "Senior",
 			"name": "Programming"
@@ -102,12 +102,12 @@
 		{
 			"name": "snugg.ie",
 			"image": "https://snugg.ie/uploads/2025/sprinkles.png",
-			"description": "Built blog...",
+			"description": "Built a Hugo-based statically generated blog by porting my existing Jekyll-based website into a Hugo-based one. Set up webmentions support, syndication of posts, POSSE, Opengraph and more.",
 			"keywords": [
 				"IndieWeb Hugo Static-Generated Blog"
 			],
 			"startDate": "2021-06-01",
-			"url": "https://snugg.ie/posts/hug-server",
+			"url": "https://snugg.ie",
 			"entity": "Entity",
 			"type": "application"
 		},
